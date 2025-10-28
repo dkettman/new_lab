@@ -1,0 +1,15 @@
+---
+plugin: community.general.lxd
+url: unix:/var/lib/incus/unix.socket
+type_filter: both
+state: RUNNING
+groupby:
+  windows:
+    type: profile
+    attribute: windows
+  ubuntu:
+    type: os
+    attribute: ubuntu
+  incus:
+    type: type
+    attribute: container

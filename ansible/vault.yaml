@@ -1,0 +1,6 @@
+---
+- name: Setting up HashiCorp Vault Infrastructure
+  hosts: vaults
+  gather_facts: true
+  roles:
+    - role: ams.ams_lab.ams_vault

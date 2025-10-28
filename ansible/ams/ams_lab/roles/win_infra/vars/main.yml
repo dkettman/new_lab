@@ -1,0 +1,20 @@
+---
+# vars file for ams.ams_lab.win_infra
+win_infra_features_ad:
+  - AD-Domain-Services
+  - GPMC
+  - RSAT-AD-Tools
+  - RSAT-AD-PowerShell
+  - RSAT-ADDS
+  - RSAT-AD-AdminCenter
+  - RSAT-ADDS-Tools
+
+win_infra_features_ca:
+  - AD-Certificate
+  - ADCS-Cert-Authority
+  - RSAT-ADCS
+  - RSAT-ADCS-Mgmt
+
+win_infra_features_dns:
+  - DNS
+  - RSAT-DNS-Server
